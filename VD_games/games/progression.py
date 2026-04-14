@@ -6,7 +6,6 @@ GAME_RULE = 'What number is missing in the progression?'
 
 
 def generate_round():
-    """Возвращает вопрос и правильный ответ для одного раунда"""
     start = random.randint(1, 10)
     step = random.randint(1, 10)
     length = random.randint(5, 10)
