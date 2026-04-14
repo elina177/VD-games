@@ -1,5 +1,4 @@
 def welcome_user():
-    """Приветствует пользователя и возвращает его имя"""
     print("Welcome to the VD-games!")
     
     name = input("May I have your name? ")
